@@ -1,0 +1,1 @@
+window.IS_STORYBOOK=!0;fetch("../resources/tailwind.config.js").then(e=>e.ok?e.text().then(n=>{const t=document.createElement("script");t.innerHTML=n.replace("module.exports","tailwind.config"),document.head.appendChild(t)}):null).catch(e=>{console.warn("ERROR:",e)});const c={actions:{argTypesRegex:"^on[A-Z].*"}};export{c as parameters};
